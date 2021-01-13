@@ -17,6 +17,16 @@ const Select = (props) => {
                 <Text>City:{secilen.LocalizedName}</Text>
                 <Text>Temperature: {secilen.Temperature.Metric.Value}</Text>
                 <Text>Weather Conditions: {secilen.WeatherText}</Text>
+                {/* switch ({secilen.WeatherText}) {
+                    case "Mostly cloudy":
+                        
+                        break;
+                
+                    default:
+                        break;
+                } */}
+
+
             </View>
         </SafeAreaView>
     )
