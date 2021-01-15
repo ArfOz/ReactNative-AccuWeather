@@ -1,7 +1,8 @@
 import React,{useEffect, useState} from "react";
 import {SafeAreaView, Text, View,TouchableOpacity,FlatList} from "react-native";
 import axios from  "axios";
-import {API_KEY} from "@env"
+import {API_KEY} from "@env";
+
 
 const Intro = (props) =>{
   const [veri, SetVeri]  = useState([]);
@@ -39,8 +40,10 @@ useEffect(()=>{
             data={veri}
             renderItem={renderCities}
             />
+           
         
             </View>
+            
         </SafeAreaView>
     
     )

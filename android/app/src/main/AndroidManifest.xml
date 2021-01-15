@@ -22,6 +22,16 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+      <meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value= "AIzaSyDXWovdf6FFoI7iyXgXKlPzKMLPxrwT8d0" />
+      
     </application>
 
 </manifest>
+
+
+
+<!-- eski proje key "AIzaSyDXWovdf6FFoI7iyXgXKlPzKMLPxrwT8d0"  -->
+<!-- bu proje keyi  "AIzaSyBOTHPImW3QQnNWV_ePkFy-8I7gd-MB0L4" -->
